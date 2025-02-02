@@ -8,7 +8,7 @@ st.markdown(
     """
     ## Disclaimer
 
-    **IMPORTANT NOTICE:** This simulation tool is a hobby project and is provided "as is" without any guarantees, warranties, or support—express or implied. The authors and contributors of this tool disclaim any liability for errors, omissions, or any decisions made based on the simulation results. Use of this tool is entirely at your own risk. This simulation is not intended to serve as financial, tax, or legal advice. Always consult a qualified professional before making any financial decisions.
+    **IMPORTANT NOTICE:** This simulation tool is a hobby project and is provided 'as is,' without any warranties, guarantees, or support, whether express or implied. The authors and contributors of this tool disclaim any liability for errors, omissions, or any decisions made based on the simulation results. Use of this tool is entirely at your own risk. This simulation is not intended to serve as financial, tax, or legal advice. Always consult a qualified professional before making any financial decisions.
     """
 )
 

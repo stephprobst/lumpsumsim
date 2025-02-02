@@ -6,19 +6,33 @@ st.title("Retirement Investable Capital Simulation")
 
 st.markdown(
     """
-    This simulation models the accumulation of investable capital from a lump sum and a pension.
+    ## Disclaimer
+
+    **IMPORTANT NOTICE:** This simulation tool is a hobby project and is provided "as is" without any guarantees, warranties, or support—express or implied. The authors and contributors of this tool disclaim any liability for errors, omissions, or any decisions made based on the simulation results. Use of this tool is entirely at your own risk. This simulation is not intended to serve as financial, tax, or legal advice. Always consult a qualified professional before making any financial decisions.
+    """
+)
+
+st.markdown(
+    """
+    ## Simulation Overview
+
+    This simulation models the accumulation of investable capital from two sources:
     
+    - **Lump Sum:** A one-time payment received at retirement.
+    - **Yearly Pension:** Annual pension payments, subject to tax and social security contributions.
+
     **Parameter Explanations:**
-    - **Lump Sum (€):** A one-time payment received at retirement.
-    - **Yearly Pension (€):** Annual pension received. Its tax and social security effects are computed.
+    
+    - **Lump Sum (€):** One-time payment received at retirement.
+    - **Yearly Pension (€):** Annual pension received. Tax and social security effects are computed separately.
     - **Current Age:** Age at the start of the simulation.
     - **Age of Death:** Age until which the simulation runs.
-    - **Other Income for Social Security (€):** Annual income used for calculating social security contributions.
-    - **Other Income for Income Tax (€):** Annual income used for computing income tax.
+    - **Other Income for Social Security (€):** Annual income used to calculate social security contributions.
+    - **Other Income for Income Tax (€):** Annual income used to compute income tax.
+
+      > **Note:** The social security and income tax income figures are **not additive**. They serve as separate bases for their respective calculations.
     
-      > **Important:** The Social Security and Income Tax income figures are **not additive**. They are separate bases used in calculating social security contributions and income tax, respectively.
-    
-    - **Annual Market Return (%):** Expected annual rate of return on invested capital.
+    - **Annual Market Return (%):** Expected annual return rate on the invested capital.
     """
 )
 
